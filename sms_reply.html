@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TMC Message</title>
+    <style>
+      body {
+        background-color: #f1f1f1;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        color: rgb(0, 246, 123);
+        text-align: center;
+      }
+      h3 {
+        text-align: center;
+      }
+      .container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      button {
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      button.accept {
+        background-color: #007bff;
+        color: #fff;
+      }
+      button.decline {
+        background-color: #dc3545;
+        color: #fff;
+      }
+      button:hover {
+        opacity: 0.8;
+      }
+      .btn-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>TMC Message</h1>
+      <h3>85131421</h3>
+      <div class="call-details">
+        <p>Call Details:</p>
+        <p>Name: Damir Avdic</p>
+        <p>Phone: 0422578228</p>
+        <p>Message: Issue with Servers</p>
+      </div>
+      <div class="comments">
+        <textarea id="comments" name="comments" placeholder="Enter your comments.." style="height:100px"></textarea>
+      </div>
+      <div class="btn-container">
+        <button class="accept" type="submit">Accept</button>
+        <button class="decline" type="button">Decline</button>
+      </div>
+    </div>
+  </body>
+</html>
